@@ -1,0 +1,93 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source "../**/*.blade.php";
+@source "../**/*.js";
+@source "../**/*.vue";
+
+@theme {
+    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+.hero h1 span{
+    color:#38bdf8;
+    text-shadow:
+        0 0 10px #38bdf8,
+        0 0 20px #38bdf8,
+        0 0 40px #38bdf8;
+}
+
+body{
+    background:linear-gradient(-45deg,#0f172a,#1e3a8a,#2563eb,#0f172a);
+    background-size:400% 400%;
+    animation:bgMove 12s ease infinite;
+}
+
+@keyframes bgMove{
+
+0%{
+background-position:0% 50%;
+}
+
+50%{
+background-position:100% 50%;
+}
+
+100%{
+background-position:0% 50%;
+}
+
+}
+
+.btn{
+    position:relative;
+    overflow:hidden;
+}
+
+.btn::before{
+
+    content:"";
+
+    position:absolute;
+
+    top:0;
+    left:-100%;
+
+    width:100%;
+    height:100%;
+
+    background:rgba(255,255,255,.2);
+
+    transition:.5s;
+
+}
+
+.btn:hover::before{
+
+    left:100%;
+
+}
+
+.card{
+
+    transition:.4s;
+
+}
+
+.card:hover{
+
+    transform:translateY(-15px) scale(1.03);
+
+    box-shadow:0 20px 40px rgba(56,189,248,.35);
+
+}
+
+.skill:hover{
+
+    transform:translateY(-12px) scale(1.05);
+
+    box-shadow:0 15px 30px rgba(37,99,235,.4);
+
+}

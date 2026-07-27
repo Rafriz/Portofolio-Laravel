@@ -1,68 +1,123 @@
-    # 🌐 Portofolio Laravel
+# 🌐 Portofolio Laravel
 
-Website portofolio pribadi yang dibuat menggunakan framework **Laravel**. 
-Project ini bertujuan untuk menampilkan informasi diri, kemampuan, pengalaman, serta kumpulan project yang telah dibuat dalam sebuah website yang modern dan responsif.
+Website portofolio pribadi yang dibangun menggunakan framework **Laravel**.  
+Project ini dibuat untuk menampilkan profil, kemampuan, pengalaman, serta kumpulan project yang telah dibuat dalam sebuah website yang modern, responsif, dan mudah digunakan.
 
 ## 📌 Tentang Project
 
-Portofolio Laravel adalah sebuah website personal yang dirancang sebagai media untuk memperkenalkan profil seorang Web Developer. 
-Website ini menampilkan berbagai informasi seperti biodata, skill pemrograman, project yang pernah dikerjakan, dan kontak yang dapat digunakan untuk berkomunikasi.
+**Portofolio Laravel** merupakan website personal yang digunakan sebagai media untuk memperkenalkan diri sebagai seorang Web Developer.  
 
-Project ini dibuat untuk mengembangkan kemampuan dalam menggunakan Laravel serta menerapkan konsep pembuatan website yang terstruktur, responsive, dan mudah digunakan.
+Website ini berisi informasi mengenai profil, skill yang dimiliki, project yang pernah dibuat, serta kontak yang dapat digunakan untuk berkomunikasi.
+
+Project ini dibuat sebagai implementasi pembelajaran Laravel dengan menerapkan konsep **MVC (Model View Controller)**, penggunaan Blade Template, serta pembuatan tampilan website yang sederhana namun menarik.
 
 ## ✨ Fitur
 
-- 🏠 Landing Page modern
+- 🏠 Landing Page
 - 👤 Halaman Profile
-- 💻 Daftar Skills / Keahlian
-- 🚀 Showcase Project
+- 💻 Informasi Skills / Keahlian
+- 🚀 Daftar Project
 - 📩 Contact Section
 - 📱 Responsive Design
-- 🎨 Tampilan sederhana dan clean
+- 🎨 Tampilan modern dan clean
 
-## 🛠️ Teknologi Yang Digunakan
+## 🛠️ Teknologi yang Digunakan
 
 - **Laravel** - Framework PHP untuk pengembangan website
 - **PHP** - Bahasa pemrograman backend
-- **Blade Template Engine** - Sistem templating Laravel
+- **Blade Template** - Template engine Laravel
 - **HTML5** - Struktur halaman website
-- **CSS3** - Styling website
+- **CSS3** - Styling dan desain website
 - **JavaScript** - Interaksi pada halaman
-- **MySQL** - Database
+- **MySQL** - Database management
 
-## 📂 Struktur Project
+## 📂 Struktur Folder
+
+```
 Portofolio-Laravel
 │
 ├── app
+│
 ├── public
+│
 ├── resources
-│ ├── views
-│ ├── css
-│ └── js
+│   ├── views
+│   ├── css
+│   └── js
 │
 ├── routes
-│ └── web.php
+│   └── web.php
 │
 ├── database
+│
 ├── storage
+│
 └── README.md
+```
 
-🎯 Tujuan Pembuatan
+## 🚀 Cara Menjalankan Project
 
-Project ini dibuat sebagai media pembelajaran dan pengembangan kemampuan dalam:
+### 1. Clone Repository
 
-Memahami framework Laravel
-Membuat website berbasis MVC
-Mengelola tampilan menggunakan Blade
-Menerapkan desain website responsive
-Membuat website portofolio profesional
+```bash
+git clone https://github.com/Rafriz/Portofolio-Laravel.git
+```
 
-👨‍💻 Developer
-Rafriz
+### 2. Masuk ke Folder Project
 
-Web Developer yang memiliki minat dalam membuat website modern, responsive, dan mudah digunakan.
+```bash
+cd Portofolio-Laravel
+```
 
-📄 License
+### 3. Install Dependency
+
+```bash
+composer install
+```
+
+### 4. Buat File Environment
+
+```bash
+cp .env.example .env
+```
+
+### 5. Generate Key Laravel
+
+```bash
+php artisan key:generate
+```
+
+### 6. Jalankan Server
+
+```bash
+php artisan serve
+```
+
+Buka website melalui:
+
+```
+http://127.0.0.1:8000
+```
+
+## 🎯 Tujuan Pembuatan
+
+Project ini dibuat untuk meningkatkan kemampuan dalam:
+
+- Menggunakan framework Laravel
+- Memahami konsep MVC
+- Membuat website berbasis PHP
+- Mengatur routing Laravel
+- Menggunakan Blade Template
+- Membuat desain website yang responsive
+- Mengembangkan website portofolio pribadi
+
+## 👨‍💻 Developer
+
+**Rafriz**
+
+Seorang Web Developer yang memiliki ketertarikan dalam membuat website modern, responsif, dan mudah digunakan.  
+Terus belajar dan mengembangkan kemampuan dalam teknologi web untuk menciptakan solusi digital yang kreatif dan bermanfaat.
+
+## 📄 License
 
 Project ini dibuat untuk kebutuhan pembelajaran dan pengembangan pribadi.
-

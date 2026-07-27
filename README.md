@@ -31,3 +31,38 @@ Project ini dibuat untuk mengembangkan kemampuan dalam menggunakan Laravel serta
 - **MySQL** - Database
 
 ## 📂 Struktur Project
+Portofolio-Laravel
+│
+├── app
+├── public
+├── resources
+│ ├── views
+│ ├── css
+│ └── js
+│
+├── routes
+│ └── web.php
+│
+├── database
+├── storage
+└── README.md
+
+🎯 Tujuan Pembuatan
+
+Project ini dibuat sebagai media pembelajaran dan pengembangan kemampuan dalam:
+
+Memahami framework Laravel
+Membuat website berbasis MVC
+Mengelola tampilan menggunakan Blade
+Menerapkan desain website responsive
+Membuat website portofolio profesional
+
+👨‍💻 Developer
+Rafriz
+
+Web Developer yang memiliki minat dalam membuat website modern, responsive, dan mudah digunakan.
+
+📄 License
+
+Project ini dibuat untuk kebutuhan pembelajaran dan pengembangan pribadi.
+

@@ -1,95 +1,123 @@
 # 🌐 Portofolio Laravel
 
-Website portofolio pribadi yang dibangun menggunakan **Laravel**. Website ini dirancang untuk menampilkan informasi tentang diri saya, kemampuan, proyek yang telah dikerjakan, serta kontak dengan tampilan yang modern, responsif, dan mudah digunakan.
+Website portofolio pribadi yang dibangun menggunakan framework **Laravel**.  
+Project ini dibuat untuk menampilkan profil, kemampuan, pengalaman, serta kumpulan project yang telah dibuat dalam sebuah website yang modern, responsif, dan mudah digunakan.
+
+## 📌 Tentang Project
+
+**Portofolio Laravel** merupakan website personal yang digunakan sebagai media untuk memperkenalkan diri sebagai seorang Web Developer.  
+
+Website ini berisi informasi mengenai profil, skill yang dimiliki, project yang pernah dibuat, serta kontak yang dapat digunakan untuk berkomunikasi.
+
+Project ini dibuat sebagai implementasi pembelajaran Laravel dengan menerapkan konsep **MVC (Model View Controller)**, penggunaan Blade Template, serta pembuatan tampilan website yang sederhana namun menarik.
 
 ## ✨ Fitur
 
 - 🏠 Landing Page
-- 👤 Halaman Profil
-- 💼 Halaman Portofolio
+- 👤 Halaman Profile
+- 💻 Informasi Skills / Keahlian
+- 🚀 Daftar Project
+- 📩 Contact Section
 - 📱 Responsive Design
-- 🎨 UI Modern dan Sederhana
-- ⚡ Dibangun menggunakan Laravel
+- 🎨 Tampilan modern dan clean
 
-## 🛠️ Teknologi
+## 🛠️ Teknologi yang Digunakan
 
-- Laravel
-- PHP
-- HTML5
-- CSS3
-- JavaScript
-- Blade Template
+- **Laravel** - Framework PHP untuk pengembangan website
+- **PHP** - Bahasa pemrograman backend
+- **Blade Template** - Template engine Laravel
+- **HTML5** - Struktur halaman website
+- **CSS3** - Styling dan desain website
+- **JavaScript** - Interaksi pada halaman
+- **MySQL** - Database management
 
-## 📂 Struktur Project
+## 📂 Struktur Folder
 
 ```
-app/
-bootstrap/
-config/
-database/
-public/
-resources/
-routes/
-storage/
+Portofolio-Laravel
+│
+├── app
+│
+├── public
+│
+├── resources
+│   ├── views
+│   ├── css
+│   └── js
+│
+├── routes
+│   └── web.php
+│
+├── database
+│
+├── storage
+│
+└── README.md
 ```
 
 ## 🚀 Cara Menjalankan Project
 
-1. Clone repository
+### 1. Clone Repository
 
 ```bash
 git clone https://github.com/Rafriz/Portofolio-Laravel.git
 ```
 
-2. Masuk ke folder project
+### 2. Masuk ke Folder Project
 
 ```bash
 cd Portofolio-Laravel
 ```
 
-3. Install dependency
+### 3. Install Dependency
 
 ```bash
 composer install
 ```
 
-4. Salin file environment
+### 4. Buat File Environment
 
 ```bash
 cp .env.example .env
 ```
 
-5. Generate application key
+### 5. Generate Key Laravel
 
 ```bash
 php artisan key:generate
 ```
 
-6. Jalankan server
+### 6. Jalankan Server
 
 ```bash
 php artisan serve
 ```
 
-Kemudian buka browser dan akses
+Buka website melalui:
 
 ```
 http://127.0.0.1:8000
 ```
 
+## 🎯 Tujuan Pembuatan
 
-## 📁 Repository
+Project ini dibuat untuk meningkatkan kemampuan dalam:
 
-Repository GitHub:
+- Menggunakan framework Laravel
+- Memahami konsep MVC
+- Membuat website berbasis PHP
+- Mengatur routing Laravel
+- Menggunakan Blade Template
+- Membuat desain website yang responsive
+- Mengembangkan website portofolio pribadi
 
-**https://github.com/Rafriz/Portofolio-Laravel**
+## 👨‍💻 Developer
 
-## 👨‍💻 Author
+**Rafriz**
 
-**Muhammad Rafriz**
+Seorang Web Developer yang memiliki ketertarikan dalam membuat website modern, responsif, dan mudah digunakan.  
+Terus belajar dan mengembangkan kemampuan dalam teknologi web untuk menciptakan solusi digital yang kreatif dan bermanfaat.
 
-- GitHub: https://github.com/Rafriz
+## 📄 License
 
----
-
-⭐ Jika repository ini bermanfaat, jangan lupa berikan **Star** di GitHub.
+Project ini dibuat untuk kebutuhan pembelajaran dan pengembangan pribadi.

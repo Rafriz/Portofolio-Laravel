@@ -43,6 +43,8 @@
 
         <li><a href="{{ route('contact') }}">Kontak</a></li>
 
+        <li><a href="{{ route('certificate') }}">Sertifikat</a>
+     
     </ul>
 
 </nav>
@@ -125,3 +127,4 @@ particlesJS("particles-js", {
 
 </body>
 </html>
+

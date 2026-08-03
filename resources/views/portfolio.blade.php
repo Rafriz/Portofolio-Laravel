@@ -25,7 +25,7 @@
                 <h2>RingKita</h2>
 
                 <p>
-                    Aplikasi manajemen sasana boxing berbasis Laravel.
+                    Aplikasi manajemen sasana boxing berbasis Digital.
                     Memiliki fitur paket latihan, absensi member,
                     jadwal latihan, dan dashboard admin.
                 </p>
